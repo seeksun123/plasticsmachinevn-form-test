@@ -82,7 +82,7 @@ async function verifyTurnstile(token, request, env) {
 async function sendEmail({ env, payload, textBody }) {
   const apiKey = env.RESEND_API_KEY;
   const to = env.INQUIRY_TO_EMAIL || "info@plasticsmachinevn.com";
-  const from = env.INQUIRY_FROM_EMAIL || "Zhengyi Machinery <onboarding@resend.dev>";
+  const from = env.INQUIRY_FROM_EMAIL || "Zhengyi Machinery <inquiry@plasticsmachinevn.com>";
   const replyTo = cleanValue(payload.contact).includes("@") ? cleanValue(payload.contact) : undefined;
 
   if (!apiKey) {
