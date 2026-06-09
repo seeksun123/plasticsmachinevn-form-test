@@ -1,6 +1,4 @@
-.DS_Store
-node_modules/
-dist/
 .wrangler/
-.env
-.env.*
+.DS_Store
+*.zip
+_preview*

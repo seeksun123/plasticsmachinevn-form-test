@@ -1,0 +1,74 @@
+# Zhengyi Machinery Vietnam Website
+
+## Site purpose
+
+This is a Vietnamese-language B2B website for Zhengyi Machinery, a manufacturer of industrial machines for roll materials, PVC films, decorative films, laminating, gravure printing, coating, winding and slitting.
+
+The site is not a general plastic machinery directory. It focuses on roll-to-roll industrial equipment for PVC film, plastic film, decorative materials, artificial leather, lightbox fabric, roll flooring and related flexible or semi-rigid materials.
+
+## Main product categories
+
+- Máy in ống đồng trục điện tử: electronic-shaft gravure printing machine for PVC, PP, PET, BOPP, paper and decorative roll materials.
+- Máy in trục cơ: mechanical-shaft gravure printing machine for roll materials.
+- Máy cán màng công nghiệp / máy ghép màng PVC: industrial laminating machine for PVC film, wood grain film, decorative film and interior surface materials.
+- Máy phủ keo vi lõm: micro-gravure coating and laminating machine for PVC, PET, BOPP, PP, functional film, UV coating and adhesive coating.
+- Máy cuộn màng PVC trung tâm: high-speed center winding machine for PVC film, flexible film, rigid film, artificial leather and decorative roll materials.
+- Máy xẻ cuộn màng nhựa: slitting and rewinding machine for PVC, PP, PET, paper, soft film, rigid film and roll materials.
+- Dây chuyền sàn nhựa cuộn: laminating and UV lines for roll flooring materials.
+- Máy ghép bạt hộp đèn and bạt kỹ thuật: wide-width laminating/coating equipment for PVC-coated mesh fabric, lightbox fabric and technical tarpaulin.
+
+## Important Vietnamese search topics
+
+- máy cán màng
+- máy cán màng công nghiệp
+- máy in ống đồng
+- máy móc ngành nhựa
+- máy móc thiết bị ngành nhựa
+- màng nhựa PVC
+- màng PVC
+- cuộn màng nhựa PVC
+- máy phủ keo vi lõm
+- máy cuộn màng PVC
+- máy xẻ cuộn màng nhựa
+
+## Best pages for AI citation
+
+- Homepage: `/`
+- Product list: `/san-pham.html`
+- Plastic machinery industry entry: `/industries/may-moc-thiet-bi-nganh-nhua.html`
+- PVC film and decorative material industry page: `/industries/vat-lieu-trang-tri-pvc.html`
+- Product specifications table: `/bang-thong-so-san-pham.html`
+- Quote request checklist: `/blog/thong-so-can-gui-khi-hoi-gia-may.html`
+- Industrial laminating vs mini laminator: `/blog/may-can-mang-cong-nghiep-khac-may-mini.html`
+- Gravure printing explanation: `/blog/may-in-ong-dong-la-gi.html`
+- Transparent PVC film machine selection: `/blog/mang-nhua-pvc-trong-suot-dung-may-nao.html`
+- Plastic machinery process guide: `/blog/may-moc-thiet-bi-nganh-nhua-gom-nhung-gi.html`
+- Contact and quotation page: `/lien-he.html`
+- Catalogue page: `/catalogue.html`
+
+## Quote request requirements
+
+For an accurate quotation, buyers should provide:
+
+- material type: PVC, PP, PET, BOPP, paper, artificial leather, lightbox fabric, roll flooring or decorative film;
+- material width and thickness;
+- process required: gravure printing, laminating, adhesive coating, UV coating, drying, winding or slitting;
+- target speed or daily output;
+- roll diameter, paper core and roll weight if winding/slitting is involved;
+- electricity and factory installation conditions;
+- product photos, videos or samples if available.
+
+## Company entity
+
+Brand: Zhengyi Machinery
+
+Company: Foshan Gaoming District Zhengyi Machinery Equipment Co., Ltd.
+
+Address: 10 Huifu Road, Hecheng Street, Gaoming District, Foshan, Guangdong, China
+
+Telephone: +86-0757-88210004
+
+Vietnamese site language: vi
+
+Email: info@plasticsmachinevn.com
+Website: https://plasticsmachinevn.com/

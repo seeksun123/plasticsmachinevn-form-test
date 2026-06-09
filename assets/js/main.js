@@ -1,3 +1,13 @@
+const menuLinks = document.querySelectorAll(".nav-links a");
+const currentPath = window.location.pathname.split("/").pop() || "index.html";
+
+menuLinks.forEach((link) => {
+  const href = link.getAttribute("href");
+  if (href === currentPath || (currentPath === "index.html" && href === "/")) {
+    link.classList.add("active");
+  }
+});
+
 const inquiryForm = document.querySelector(".inquiry-form");
 
 if (inquiryForm) {
@@ -56,10 +66,12 @@ if (inquiryForm) {
     const body = buildInquiryText(formData);
     const endpoint = inquiryForm.dataset.endpoint || "/api/inquiry";
     const payload = Object.fromEntries(formData.entries());
-    const tokenField = inquiryForm.querySelector('input[name="cf-turnstile-response"]');
 
-    if (tokenField && tokenField.value) {
-      payload.turnstileToken = tokenField.value;
+    if (window.turnstile) {
+      const tokenField = inquiryForm.querySelector('input[name="cf-turnstile-response"]');
+      if (tokenField) {
+        payload.turnstileToken = tokenField.value;
+      }
     }
 
     result.hidden = true;

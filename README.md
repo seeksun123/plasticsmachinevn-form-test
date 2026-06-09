@@ -1,9 +1,9 @@
-# plasticsmachinevn-form-test
+# plasticsmachinevn Vietnamese site
 
-Form-only Cloudflare Pages test project for `plasticsmachinevn.com`.
+Static Vietnamese lead-generation site for `plasticsmachinevn.com`.
 
-This repository is intentionally limited to the inquiry form test page. It does
-not contain the full Vietnamese Zhengyi Machinery website.
+The site is pure HTML/CSS/JS with Cloudflare Pages Functions/advanced mode
+Worker support for `/api/inquiry`.
 
 ## Cloudflare Pages
 
@@ -12,6 +12,15 @@ not contain the full Vietnamese Zhengyi Machinery website.
 - Build output directory: `/`
 - Functions entry for Direct Upload / advanced mode: `_worker.js`
 - Classic Pages Functions copy: `functions/api/inquiry.js`
+
+## Content
+
+- `index.html` - Vietnamese homepage
+- `san-pham.html`, `products/` - product listing and product detail pages
+- `industries/` - application and industry pages
+- `blog.html`, `blog/` - SEO content pages
+- `lien-he.html` - inquiry/contact page
+- `assets/` - CSS, JS, product images, factory images and certificate images
 
 ## Environment Variables
 
@@ -27,5 +36,5 @@ The form currently uses Cloudflare Turnstile's official test sitekey
 secret above. Replace both values with a real `plasticsmachinevn.com` Turnstile
 widget before production launch.
 
-Without `RESEND_API_KEY`, `/api/inquiry` intentionally returns a configuration
-message and fallback inquiry text so we can confirm the backend route is alive.
+Without `RESEND_API_KEY`, `/api/inquiry` returns a configuration message and
+fallback inquiry text instead of pretending that email was sent.
