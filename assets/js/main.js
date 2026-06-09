@@ -56,6 +56,11 @@ if (inquiryForm) {
     const body = buildInquiryText(formData);
     const endpoint = inquiryForm.dataset.endpoint || "/api/inquiry";
     const payload = Object.fromEntries(formData.entries());
+    const tokenField = inquiryForm.querySelector('input[name="cf-turnstile-response"]');
+
+    if (tokenField && tokenField.value) {
+      payload.turnstileToken = tokenField.value;
+    }
 
     result.hidden = true;
     status.textContent = "Đang gửi yêu cầu...";
@@ -75,16 +80,25 @@ if (inquiryForm) {
         status.textContent = data.message || "Không gửi được yêu cầu. Vui lòng dùng nội dung dự phòng bên dưới.";
         status.className = "form-status is-error";
         showFallback(data.fallbackText || body);
+        if (window.turnstile) {
+          window.turnstile.reset();
+        }
         return;
       }
 
       status.textContent = data.message || "Cảm ơn bạn. Yêu cầu báo giá đã được gửi thành công.";
       status.className = "form-status is-success";
       inquiryForm.reset();
+      if (window.turnstile) {
+        window.turnstile.reset();
+      }
     } catch (error) {
       status.textContent = "Không kết nối được hệ thống gửi email. Vui lòng dùng nội dung dự phòng bên dưới.";
       status.className = "form-status is-error";
       showFallback(body);
+      if (window.turnstile) {
+        window.turnstile.reset();
+      }
     } finally {
       submitButton.disabled = false;
     }

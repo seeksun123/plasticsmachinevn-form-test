@@ -209,6 +209,12 @@ a {
   font-weight: 700;
 }
 
+.turnstile-box {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+}
+
 .form-result {
   display: grid;
   gap: 12px;

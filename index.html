@@ -7,6 +7,7 @@
   <title>Test form báo giá | Zhengyi Machinery</title>
   <meta name="description" content="Trang test form gửi yêu cầu báo giá Zhengyi Machinery.">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -66,6 +67,14 @@
         <input name="width_thickness" placeholder="Khổ rộng / độ dày, ví dụ 1600 mm / 0,3 mm">
         <input name="speed" placeholder="Tốc độ hoặc sản lượng mong muốn">
         <textarea name="message" placeholder="Mô tả sản phẩm đầu ra, quy trình cần làm, đường kính cuộn, nguồn điện, yêu cầu tự động hóa hoặc vấn đề hiện tại của nhà máy."></textarea>
+        <div class="turnstile-box">
+          <div
+            class="cf-turnstile"
+            data-sitekey="1x00000000000000000000AA"
+            data-action="inquiry-form"
+            data-cdata="plasticsmachinevn-form-test"
+          ></div>
+        </div>
         <button class="btn btn-primary" type="submit">Gửi yêu cầu báo giá</button>
         <p class="form-status" role="status" aria-live="polite"></p>
         <div class="form-result" hidden>
